@@ -1,0 +1,6 @@
+[submodule "kitodo-production"]
+	path = docker/database/kitodo-production
+	url = https://github.com/goobi/goobi-production
+[submodule "docker/production/kitodo-production"]
+	path = docker/production/kitodo-production
+	url = https://github.com/goobi/goobi-production

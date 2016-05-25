@@ -20,5 +20,5 @@ ENV MYSQL_DATABASE goobi
 ENV MYSQL_USER goobi
 ENV MYSQL_PASSWORD goobi
 
-COPY setup /tmp/setup
+COPY kitodo-production/Goobi/setup /tmp/setup
 COPY initdb.sh /docker-entrypoint-initdb.d/initdb.sh
